@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <form action="form">
+    <div class="donation"> <span class="astrics" >*</span> -Denotes required informations</div>
+    <div class="donation">
+        <b>> 1 Donation </b>
+        > 2 Confirmation
+        > 3 Thank You
+    </div>
+    <div class="header">
+        <h1>Donor Information</h1>
+    </div>
+
+    <!-- name -->
+    <div class="Container">
+        <label for="firstname">First Name <span class="astrics">*</span></label>
+        <input type="text" id="firstname" name="firstname"  required>
+    </div>
+    
+    
+
+    <div class="Container">
+        <label for="lastname">Last Name <span class="astrics">*</span></label>
+        <input type="text" id="lastname" name="lastname"  required>
+    </div>
+
+    
+
+    <!-- company -->
+    <div class="Container">
+        <label for="company">company </label>
+        <input type="text" id="company" name="company" >
+    </div>
+    
+    <!-- address-->
+    <div class="Container">
+        <label for="address1">Address 1 <span class="astrics">*</span></label>
+        <input type="text" id="address1" name="address1"  required>
+    </div>
+    
+
+    <div class="Container">
+        <label for="address2">Address 2 </label>
+        <input type="text" id="address2" name="address2" >
+    </div>
+
+    
+    <!-- city -->
+    <div class="Container">
+        <label for="city">City <span class="astrics">*</span></label>
+        <input type="text" id="city" name="city"  required>
+    </div>
+    
+    <!-- state -->
+    <div class="Container">
+        <label for="state">State <span class="astrics">*</span></label>
+        <select name="state" id="state" required>
+            <option value="" disabled selected>Select a state</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Barisal">Barisal</option>
+        </select>
+    </div>
+    
+
+    <!-- zip -->
+    <div class="Container">
+        <label for="zip">Zip Code <span class="astrics">*</span></label>
+        <input type="text" id="zip" name="zip"  required>
+    </div>
+
+    <!-- country -->
+    <div class="Container">
+        <label for="country">Country <span class="astrics">*</span></label>
+        <select name="country" id="country" required>
+            <option value="" disabled selected>Select a country</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+    </div>
+
+    <!-- phone -->
+    <div class="Container">
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" name="phone" >
+    </div>
+
+    <!-- fax -->
+    <div class="Container">
+        <label for="fax">Fax</label>
+        <input type="text" id="fax" name="fax" >
+    </div>
+
+    <!-- email -->
+    <div class="Container">
+        <label for="email">Email <span class="astrics">*</span></label>
+        <input type="email" id="email" name="email"  required>
+    </div>
+
+    <!-- donation amount -->
+     <div class="Container">
+        <label for="donation_amount">Donation Amount <span class="astrics">*</span></label>
+        <input type="radio" name="amount" value="50"> $50
+        <input type="radio" name="amount" value="75"> $75
+        <input type="radio" name="amount" value="100"> $100
+        <input type="radio" name="amount" value="250"> $250
+        <input type="radio" name="amount" value="other"> other
+        <span>(Check a button or type in your amount)</span>
+     </div>
+
+     <div class="Container">
+        <label for="other">Other Amount $</label>
+        <input type="text" id="other" name="other" >
+     </div>
+
+     <!-- Recurring donation -->
+        <div class="Container">
+            <label for="recurring">Recurring Donation</label>
+            <input type="checkbox" id="recurring" name="recurring" >
+            <span>I am interested in giving on a regular basis.</span>
+            <span>(Check if yes)</span>
+
+        </div>
+
+        <div class="Container">
+            <span>Monthly Credit Card $</span>
+            <input type="" name="card_amount" size="5">
+            <span>For</span>
+            <input type="" name="month" size="5">   
+        </div>
+
+        <div class="header">
+            <h1>Honorarium and Memorial Donation Information</h1>
+        </div>
+
+        <div class="Container">
+            <label for=""></label>
+        </div>
+    </form>
+</body>
+</html>
