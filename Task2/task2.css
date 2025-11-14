@@ -5,15 +5,15 @@
 form {
     width: 60%;
     background: #6666664c;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
+    margin:auto;
+    text-align:center;
+    padding-top: 20px;
 }
 
 .donation {
     text-align: left;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 22px;
 }
 
 .header {
@@ -27,18 +27,21 @@ form {
 label {
     width: 200px;
     font-weight: bold;
-    margin-right: 10px;
     text-align: right;
+    margin-right: 10px;
 }
 
 input[type="text"], 
 input[type="email"], 
 input[type="number"], 
 select {
-    width: 50%;
-    padding: 2px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    width: 450px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.container {
+    display: flex;
 }
